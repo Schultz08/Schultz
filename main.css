@@ -1,0 +1,146 @@
+body
+{
+background-image: url(./assets/repeatback.jpg);
+margin: 0;
+padding: 0;
+}
+
+#header
+{
+    text-align: center;
+    color: rgb(247, 244, 240);
+    text-shadow: 2px 2px rgb(10, 10, 10), 3px 3px white;
+    font-size: 50px;
+}
+
+#headertwo
+{
+    margin-top: 8%;
+    float: right;
+}
+#containOne
+{
+    background-image: url(./assets/Header.jpg);
+    border: 5px groove rgb(248, 247, 245);
+    width: 100%;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;    
+    margin-right: 0em;
+    margin-left: 0em;
+    padding: 0;
+}
+
+#cardinfo
+{
+    background-color: black;
+    color: blanchedalmond;
+    border-top: 3px outset white;
+    border-left: 3px inset white;
+}
+
+#buttonbar
+{
+    background-color:  black;
+    text-align: left;
+    
+}
+#button
+{
+    background-color: transparent;
+}
+#containTwo
+{
+    background-color: black;
+    border-left: 5px  groove rgb(238, 233, 233);
+    border-bottom: 5px  groove rgb(238, 233, 233);
+    border-right: 5px  groove rgb(238, 233, 233);
+}
+#containThree
+{
+    text-align: center;
+}
+
+
+#formalign
+{
+    text-align: left;
+    width: 30%;
+}
+.formtext
+{
+    color:white;
+}
+
+#resume
+{
+    text-decoration: none;
+    color: white;
+}
+
+#itemone
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+#itemtwo
+{
+    width: auto;
+    height: 70%;
+    margin-left: 25%;
+}
+
+#itemthree
+{
+    width: auto;
+    margin-left: 35%;
+}
+
+.h5tagone
+{
+    color: rgb(8, 130, 167);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.ptagone
+{
+    color: rgb(8, 130, 167);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.h5tagtwo
+{
+    color: rgb(8, 130, 167);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.ptagtwo
+{
+    color: rgb(8, 130, 167);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.h5tagthree
+{
+    color: rgb(8, 130, 167);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+.ptagthree
+{
+    color: rgb(8, 130, 167);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-size: 30px;
+}
+.footer
+{
+    text-align: right;
+}

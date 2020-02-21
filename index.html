@@ -5,16 +5,188 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    
+  <div class="container-fluid" id = "containOne" >
+    <header id = "header">Jess Schultz
+    </header>
+    <h3 id = "headertwo">Indianapolis</h3>
+  </div>
 
 
+    <div class="container-fluid" id = "containTwo">
 
 
+       <div class="row" id = "buttonbar">
+          <div class="col col-lg-2"><button type="button" class="btn btn-outline-light" data-toggle="collapse" data-target="#AboutMe" aria-expanded="false" aria-controls="collapseExample">About Me</button></div>
 
+          <div class="col col-lg-2"><button type="button" class="btn btn-outline-light" data-toggle="collapse" data-target="#Skills" aria-expanded="false" aria-controls="collapseExample">Skills</button></div>
+
+          <div class="col col-lg-2"><button type="button" class="btn btn-outline-light"  data-toggle="collapse" data-target="#MyProjects" aria-expanded="false" aria-controls="collapseExample">My Projects</button></div>
+
+          <div class="col col-lg-2"><button type="button" class="btn btn-outline-light"  data-toggle="modal" data-target="#contactMe">Contact Me</button></div>
+
+          <div class="col col-lg-2"><button type="button" class="btn btn-outline-light"><a href="https://docs.google.com/document/d/e/2PACX-1vRyvLtHoTUR7NrtVWrgqIqNc2-Rs9CUKKzH1u8CfeGoi3Iw39vscdXy7t_E_2klsrhSuzXAj0XYsMmc/pub" target = "blank" id = "resume" >Resume</a></button></div>
+       </div>
+
+          <div class = "collapse" id = "AboutMe">
+            <div class = "card card-body"id = "cardinfo">
+              I joined the U.S. Army in 2008. After Basic Training i was placed in a sniper section as a "shooter". Deployed to Iraq from 2009 to 2010. I was promoted from the Rank of Private First Class to the Rank Specialist late 2009. Deployed again early 2011 and returned late 2011. Was then sent to the promotion board and failed. After another few attempts I passed the promotion board and received the rank of Sargent January 1st 2013. Received orders and was stationed at Fort Campbell, Ky. Was placed in an Infantry platoon as a Squad Leader. Was in charge of 2 teams of 3 people. I trained my team in various battle tactics, Made a Daily Physical Training schedule, and tasked senior members with giving training to other team members. Early 2014 I requested a transfer to the Sniper Section. I was made a Sniper Team Leader. Lead my Sniper team in a Battalion training exercise at JRTC, where my team "eliminated" 70% of the apposing force. My contract with the U.S. Army ended in 2015 and i started working for a overseas contract company called Academi. worked for them until 2017 when I then joined a security company called G4S Secure Solutions. About a year later i was promoted to Supervisor of 12 Officers. While the job was easy I could not stay in a job where I could not see a way to advance farther. I decided to change career to the tech world. Was suggested by a friend to look into attending Eleven Fifty Academy. I am currently attending the c# class and learning a lot.
+                            <br>
+                            While serving in the U.S. Army, I was a sniper. I spent 5 yeahs As a sniper. During that time I developed skill such as attention to detail, Target detection, Planning, and Problem solving skills. I use these skills while working with C# to help write and read code.
+            </div>
+          </div>
+          
+          <div class = "collapse" id = "Skills">
+            <div class = "card card-body" id = "cardinfo">
+              One of they key takeaways in this section is that I am not skillful in the minipulation of HTML&CSS code. Definetly not my strong point.
+              <br>
+              I throughly enjoy C# and other simular programs.
+              <br>
+              Skills include but not limited to:
+              <br>
+              Detailed, Systimatic Thinker, Able to read and understand C#, Problem solving, and Time Management.
+            </div>
+          </div>
+          
+          <div class = "collapse" id = "MyProjects">
+            <div class = "card card-body" id = "cardinfo">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" id = "itemone">
+                    <a href="https://github.com/Schultz08/staticstore" target = "blank">
+                      <img class="d-block w-100" src="./assets/StorePage.png" alt="First slide">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5 class = "h5tagone">Static Store Page</h5>
+                        <p class = "ptagone">Project 2nd week of class</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="carousel-item" id = "itemtwo">
+                    <a href="https://codepen.io/Schultz08/pen/ExaJMMw" target = "blank">
+                      <img class="d-block w-100" src="./assets/TheThing.png" alt="Second slide">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5 class = "h5tagtwo">Creature</h5>
+                        <p class = "ptagtwo">HTML, CSS Project 1st week of class</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="carousel-item" id = "itemthree">
+                    <a href="https://github.com/Schultz08/BlackJack" target = "blank">
+                      <img class="d-block w-100" src="./assets/blackJack.jpg" alt="Third slide">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5 class = "h5tagthree">BlackJack</h5>
+                        <p class = "ptagthree">Partner Project 3rd week of class</p>
+                      </a>
+                      </div>
+                    </div>
+                  </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+     </div>
+
+
+     <div class="modal fade" id="contactMe" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contact Me</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="https://formspree.io/mnqdelln"
+            method="POST">
+            
+            <div>
+              <label class = "formtext"></label>
+              <input type="text" placeholder = "Your Name">
+             </div>
+             <br>
+             <div>
+               <label class = "formtext"></label>
+               <input type="text" name="_replyto" placeholder = "Your Email">
+             </div>
+             <br>
+             <div>
+               <label class = "formtext"></label>
+               <textarea name="message" placeholder = "Your Message"></textarea>
+             </div>
+             <br>
+             <div>
+               <button type="submit">Send</button>
+             </div>
+           </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!--
+
+     <div class = "container-fluid" id = "containThree">
+       <form
+       action="https://formspree.io/mnqdelln"
+       method="POST">
+       
+       <div>
+         <label class = "formtext"></label>
+         <input type="text" placeholder = "Your Name">
+        </div>
+        <br>
+        
+        <div>
+          <label class = "formtext"></label>
+          <input type="text" name="_replyto" placeholder = "Your Email">
+        </div>
+        <br>
+        <div>
+          <label class = "formtext"></label>
+          <textarea name="message" placeholder = "Your Message"></textarea>
+        </div>
+        <br>
+         your other form fields go here
+        <div>
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  -->  
+  
+
+    <div class = "container footer">
+        <div class="row">
+          <div class="col-sm">
+            <a class = "icon" href = "https://github.com/Schultz08?tab=repositories" target="blank" title = "GitHub"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-sm">
+            <a class = "icon" href = "https://codepen.io/dashboard/" target="blank" title = "Codepen"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+          </div>
+          <div class="col-sm">
+            <a class = "icon" href = "https://www.linkedin.com/in/jess-schultz-68348897/" target="blank" title = "linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+        </div>
+    </div>
 
 
 
